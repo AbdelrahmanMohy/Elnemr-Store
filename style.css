@@ -1,0 +1,493 @@
+body{
+    width: 100%;
+    margin: 0;
+}
+header{
+    background-color:  #000;
+}
+/* header style */
+
+.headLayout{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.el-nemr-store{
+    font-family: "Inter";
+    font-size: 1.625rem;
+    font-weight: 900;
+    color: white;
+    letter-spacing: 0.78px;
+    text-transform: uppercase;
+}
+.text-wrapper{
+    color: var(--24-ff-00, #24FF00);
+    
+}       
+.searchLayout{
+    width: 25.375rem;
+    height: 3.125rem;
+    display:flex;
+    justify-content: space-between;
+    flex-shrink: 0;
+    border-bottom: 1px solid var(--24-ff-00, #24FF00);
+    background: #111;
+    margin-top: 1.2%;
+}
+.ContactLayout{
+    width: 180px;
+    height: 50px;
+    flex-shrink: 0;
+    border-bottom: 0.0625rem solid var(--24-ff-00, #24FF00);
+    background: #111;
+    margin-top: 1.2%;
+    margin-right: 2%;
+}
+.searchLabel{
+    color: #FFF;
+    opacity: 0.75;
+    font-family: "Inter";
+    font-size: 1rem;
+    font-weight: 600;
+    padding-left: 2.1875rem;
+}
+.contactLabel{
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+.SearchIcon{
+    display: flex;
+    width: 1.5rem;
+    height: 1.5rem;
+    opacity: 0.75;
+    padding-top: 0.8rem;
+    padding-right: 1.9rem;
+}
+.text-wrapper-head{
+    color: var(--24-ff-00, #24FF00);
+}
+/* landing page style */
+.mainPage{
+    width: 100%;
+}
+/* offer  style */
+
+.OfferLayout{
+    display: flex;
+    justify-content: center;
+    background: var(--24-ff-00, #24FF00);
+}
+.offerLabel{
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+/* screen one  style */
+
+.screenOne{
+    background-color: #000;
+    height: 36.875rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.containerScreenOne{
+    width: 79.75rem;
+    height: 36.875rem;
+    background: url(/img/phScreen1.png), lightgray 0px -57.932px / 100% 115.785% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.we-offer-you-the{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.870625rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3.89375rem; /* 135.583% */
+    letter-spacing: 0.3125rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFF; 
+}
+.text-wrapper{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.870625rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 3.89375rem; /* 135.583% */
+    letter-spacing: 0.3125rem;
+    text-transform: uppercase;
+}
+/* screen two  style */
+.screenTwo{
+    background: #FFF;
+}
+.ElnemrProudcts{
+    color: #000;
+    font-family: 'Montserrat';
+    font-size: 7.5rem;
+    font-weight: 900;
+    line-height: 8.5rem; 
+    letter-spacing: 11.733px;
+    text-transform: uppercase;
+}
+.text-proudcts{
+    color: var(--24-ff-00, #24FF00);
+    font-family: 'Montserrat';
+    font-size: 6.5rem;
+    font-weight: 900;
+    line-height: 7rem; 
+    letter-spacing: 5.867px;
+    text-transform: uppercase;
+}
+.containerScreenTwo{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 5rem 0 5rem;
+}
+.labelScreenTwo{
+    margin-top: -3%;
+}
+.buttonScreenTwo{
+    margin-top: -5%;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 25.3125rem;
+    height: 9.9375rem;
+    border: 1px solid;
+    border-color:var(--24-ff-00, #24FF00);
+    margin-top: 2rem;
+    position: relative;
+}
+.circle{
+    width: 8.4375rem;
+    height: 8.4375rem;
+
+    position: absolute;
+    top: -4rem;
+    left: -4rem;
+}
+.circleDown{
+    width: 3.625rem;
+    height: 3.625rem;
+    position: absolute;
+    top: 8rem;
+    left: -28px;
+
+}
+.upperRectangle {
+    
+    position: absolute;
+    top: 2rem;
+    left: 12rem;
+
+}
+.lowerRectangle{
+    position: absolute;
+    top: 2rem;
+    left: 1rem;
+}
+.bigFontInBox{
+    color: #000;
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 #24FF00; 
+}
+.smallFontInBox{
+    color: #848484;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.24px;
+    text-transform: capitalize;
+
+}
+.textPopular{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 6.5rem 0 6rem;
+}
+.popular{
+    color: #000;
+    border-left: 0.5125rem solid #24FF00; 
+    padding-left: 2rem; /* Add padding to create space between text and border */
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
+}
+.seeAll{
+    color: #757575;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    padding-top: 0.4rem;
+}
+
+.boxesLayout{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 5rem 0 5rem;
+}
+.blockTwo{
+    margin-top: 1%;
+    margin-bottom: 10%;
+}
+/* screen Three style */
+
+.screenThree{
+    background: #000;
+    margin: 0 5rem 0 4.5rem;
+    
+}
+.containerScreenThree{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-shrink: 0;
+    align-items: center;
+
+}
+.madridPhoto{
+    width: 23.375rem;
+    height: 32.5rem;
+    margin: 10%;
+    box-shadow: -1.0625rem 0.875rem 0px #24FF00
+
+}
+.madridFont{
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 4rem; /* 133.333% */
+    letter-spacing: 7.2px;
+    text-transform: uppercase;
+   
+}
+.rightSide{
+    margin-right: 8.5rem;
+    margin-left: 2rem;
+}
+.realMadrid{
+    position: relative;
+    right:1.5rem ;
+}
+.homeJersy{
+    color: #000;
+    background-color: var(--24-ff-00, #24FF00);
+
+}
+.smallMadridFont{
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2rem; /* 200% */
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    }
+
+.orderFont{
+    color: var(--24-ff-00, #24FF00);
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    align-items: end;
+}
+.borderBottom{
+    border: 1px solid #24FF00;
+    width: 25%;
+}
+
+/* screen four style */
+.screenFour{
+    margin-top: 5%;
+}
+.priceOfBoxes{
+    display: flex;
+    justify-content: space-between;
+
+}
+.textPriceLayout{
+    display: flex;
+    justify-content: space-between;
+}
+.textOfBox{
+    color: #000;
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+}
+
+.price{
+    color: #F00;
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 3.12px;
+    text-transform: uppercase;
+}
+.lowPriceFont{
+    color: #949494;
+    font-family: 'Montserrat';
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 2.4px;
+    text-decoration-line: line-through; /* Apply a strikethrough effect to the text */
+    text-transform: uppercase;
+}
+/* screen five style */
+.screenFive{
+    margin: 8% 0 9% 0 ;
+}
+/* screen Footer style */
+
+.containerFooter{
+    background: #000;
+    margin: 0 4.75rem 0 4.75rem;
+    padding: 5rem;
+    position: relative;
+    display: flex;
+    justify-content: space-between  ;
+    flex-wrap: wrap;
+    overflow: hidden;
+
+
+}
+.nemrFont{
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    padding-bottom: 1.2rem;
+    border-bottom: 2px solid  #24FF00;
+    width: 95%;
+
+}
+.manyWords{
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 1.5rem; /* 171.429% */
+    letter-spacing: 1.4px;
+    text-transform: uppercase;  
+}
+.word{
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 1.5rem; /* 171.429% */
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    padding-left: 1rem;
+}
+.btnClass{
+    background-color:#24FF00;
+    width: 209px;
+    height: 57px;
+    color: #000;
+    font-family: 'Montserrat';
+    font-size: 0.81rem;
+    font-weight: 600;
+    line-height: 1.5; /* 171.429% */
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin-top: 1.5rem;
+}
+
+.rightSide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+.text-follow{
+    position: absolute;
+    right: 8.5rem;
+    transform: rotate(-90deg);
+    font-family: 'Montserrat';
+
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 1.2rem;
+    letter-spacing: 1.6px;
+    line-height: 1.5rem;
+    white-space: nowrap;
+  
+}
+.contactUs{
+    display: flex;
+    flex-direction: column;
+}
+.contactUs p{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 0.975rem;
+    line-height: 1.5rem; /* 171.429% */
+    letter-spacing: 0.0875rem;
+    text-transform: uppercase;
+    padding-left: 1rem;
+    border-left: 0.2rem solid #24FF00 ;
+
+}
+.contactUs a{
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5rem; /* 171.429% */
+    letter-spacing: 0.0875rem;
+    text-transform: uppercase;
+    border-left: 0.2rem solid #24FF00 ;
+    text-decoration: none;
+    padding-left: 0.5rem;
+}
+.whiteFrame{
+    position: absolute;
+    left: 0;
+    top: 0;
+    
+}
+.flexFooterPoint{
+    display: flex;
+}
